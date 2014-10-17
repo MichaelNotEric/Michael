@@ -34,27 +34,10 @@ body{
 }
 
 div>a{
-	font-size:20px;	
+	font-size:20px;
+	
 }
 
-#winners{
-	text-align: center;
-	margin-left:566.5px;
-	margin-right: auto;
-	width: 400px;
-	height: 300px;
-	font-size: 20px;
-	/*border-style: solid;
-	border-color: blue;*/
-}
-
-table{
-	width: 400px;
-	margin-top: 50px;
-}
-table:first-child{
-	margin-top:200px;
-}
 
 #foot{
 	text-align: center;
@@ -81,12 +64,71 @@ table:first-child{
 	text-decoration: none;
 }
 
-a{
-	color: black;
+
+span div {
+	position: relative;
+	top: 275px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 300px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	text-align: center;
+	overflow: hidden;
 }
 
-a:hover{
+
+
+
+.player{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #2572FF;
+}
+
+
+#champ{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #FFB225;
+}
+
+#last_place{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #CC0000;
+}
+
+span div p {
+	position: relative;
+	margin-top: 40px;
+	font-size: 12px;
+}
+
+span img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+#descriptions{
+	top: 420px;
+	left: 450px;
+	position: absolute;
 	font-weight: bold;
 }
+
+#descriptions p{
+	margin-top: 0px;
+	margin-bottom: 98px;
+	
+}
+
+
+
+
 
 

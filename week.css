@@ -8,8 +8,8 @@ body{
 .heads{
 	font-family: Verdana;
 	font-size: 40px;
-	font-weight: none;
-	color: black;
+	font-weight: bold;
+	color:black;
 	margin-left:331.5px;
 	height: 100px;
 	width:870px;
@@ -27,14 +27,17 @@ body{
 	left: 4px;
 	top: 120px;
 	position: fixed;
+	color: white;
 }
+
 #sidebar p{
 	font-size: 20px;
 	margin-bottom: -10px;
 }
 
 div>a{
-	font-size:20px;	
+	font-size:20px;
+	
 }
 
 #winners{
@@ -57,36 +60,31 @@ table:first-child{
 }
 
 #foot{
+	
 	text-align: center;
 	margin-left: 331.5px;
 	height: 20px;
 	width:870px;
 	position: absolute; 
 	bottom: 0;
+	
+	
 	/*border-style: solid;
 	border-color: blue;*/
 }
 
 
-#sidebar a:hover {
+a:hover {
 	color: white;
-	text-decoration: none;
-}
-#sidebar a:link{
-	color: white;
-	text-decoration: none;
-}
-#sidebar a:visited{
-	color: white;
-	text-decoration: none;
-}
-
-a{
-	color: black;
-}
-
-a:hover{
 	font-weight: bold;
+	text-decoration: none;
 }
-
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
 
